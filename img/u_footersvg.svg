@@ -1,0 +1,28 @@
+<svg id="U_llena" data-name="U llena" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39.977" height="40.355" viewBox="0 0 39.977 40.355">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="1" stop-color="#7f8288"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d9dddb"/>
+      <stop offset="0.02" stop-color="#d5d9d7"/>
+      <stop offset="0.28" stop-color="#a6aaac"/>
+      <stop offset="0.48" stop-color="#898c92"/>
+      <stop offset="0.59" stop-color="#7f8288"/>
+      <stop offset="0.72" stop-color="#787b80"/>
+      <stop offset="0.91" stop-color="#676a6c"/>
+      <stop offset="1" stop-color="#5e6061"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.043" y1="0.362" x2="0.9" y2="1.033" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="0.229" y1="0.301" x2="0.763" y2="0.712" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#7f8288"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_7" data-name="Path 7" d="M140.69,41.92V66.492l-9.79,2.414,7.274-25.69Z" transform="translate(-130.491 -41.318)" fill="url(#linear-gradient)"/>
+  <path id="Path_8" data-name="Path 8" d="M140.69,373.71l9.79,12.219-3.671,2.519L130.9,376.124Z" transform="translate(-130.491 -348.535)" fill="url(#linear-gradient-2)"/>
+  <path id="Path_9" data-name="Path 9" d="M528.99,41.92V66.492l9.79,2.414-7.41-25.69Z" transform="translate(-499.212 -41.318)" fill="url(#linear-gradient-3)"/>
+  <path id="Path_10" data-name="Path 10" d="M406.089,373.71,396.3,385.928l3.671,2.519,15.908-12.324Z" transform="translate(-376.311 -348.535)" fill="url(#linear-gradient-4)"/>
+  <path id="Path_11" data-name="Path 11" d="M155.128,34.392l2.379,1.3,7.41,25.69L149.009,73.7l-3.671-2.52,9.79-12.218V34.392m-19.579,0V58.965l9.79,12.218-3.671,2.52L125.76,61.379l7.273-25.69,2.516-1.3m19.223-.6V58.839l-9.433,11.773-9.433-11.773V33.806l-.519.268-2.516,1.3-.138.071-.042.15-7.275,25.69-.066.233.191.148,15.908,12.324.205.159.214-.147,3.47-2.381L148.807,74l.214.147.205-.159,15.908-12.324.193-.149-.068-.234L157.85,35.589l-.041-.144-.131-.071-2.379-1.3-.527-.287Z" transform="translate(-125.35 -33.79)" fill="#132630"/>
+</svg>

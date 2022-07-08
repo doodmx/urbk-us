@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Monorama;
+    src: url('../fonts/monorama_regular.otf');
+}
+@font-face {
+    font-family: monorama-medium;
+    src: url('../fonts/monorama_medium.otf');
+}
+@font-face {
+    font-family: Sequel Sans;
+    src: url('../fonts/sequel_sans_light_head.ttf'),    
+}
+@font-face {
+    font-family: sequel-book;
+    src: url('../fonts/sequel_sans_book_head.otf');
+}

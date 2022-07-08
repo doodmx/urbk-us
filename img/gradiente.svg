@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="819" height="724" viewBox="0 0 819 724">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_39" data-name="Rectangle 39" width="819" height="724" rx="137" transform="translate(68.554 1176)" fill="#0f1011"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.457" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3b517d"/>
+      <stop offset="1" stop-color="#0f1011" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.457" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2b0c3"/>
+      <stop offset="1" stop-color="#0f1011" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Gradiente" transform="translate(-68.554 -1176)" clip-path="url(#clip-path)">
+    <g id="Group_57" data-name="Group 57" transform="translate(-607.446 634.092)">
+      <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M807,0c445.694,0,807,324.817,807,725.5S1252.694,1451,807,1451,0,1126.182,0,725.5,361.306,0,807,0Z" transform="translate(411 252.908)" fill="url(#radial-gradient)"/>
+      <path id="Gradient_Overlay-2" data-name="Gradient Overlay" d="M718.5,0C1115.316,0,1437,289.448,1437,646.5S1115.316,1293,718.5,1293,0,1003.552,0,646.5,321.684,0,718.5,0Z" transform="translate(0 -0.092)" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+</svg>
