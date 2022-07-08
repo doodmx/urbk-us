@@ -182,7 +182,7 @@
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
+	bottom:70px;
 	right:40px;
 	background-color:#25d366;
 	color:#FFF;
@@ -202,4 +202,7 @@
 }
 .requerido{
     border-color: red !important;    
+}
+.captcha{
+    margin-left: 27%;    
 }
