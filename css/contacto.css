@@ -92,8 +92,7 @@
 .card-body{
     color: #fff;    
     /* background: linear-gradient(152grad, #a0a0a0, #30384b, #2b3a5708, #3B517D); */
-    background: transparent url('../img/gradiente.svg') 0% 0% no-repeat padding-box;
-    background: ;
+    background: transparent url('../img/gradiente.svg') 0% 0% no-repeat padding-box;    
     height: 500px;
     border-radius: 30px;
     height: 500px;    
@@ -200,4 +199,7 @@
 
 .my-float{
 	margin-top:16px;
+}
+.requerido{
+    border-color: red !important;    
 }
