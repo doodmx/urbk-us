@@ -145,7 +145,7 @@
     border-radius: 30px;
 }
 .mapa {
-    background: url('../img/mundo.svg') 0% 0% no-repeat padding-box;
+    background: url('../img/mundo.png') 0% 0% no-repeat padding-box;
     background-size: 100% 725px;
     opacity: 1;
     width: 100%;
