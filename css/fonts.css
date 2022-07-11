@@ -3,14 +3,18 @@
     src: url('../fonts/monorama_regular.otf');
 }
 @font-face {
-    font-family: monorama-medium;
-    src: url('../fonts/monorama_medium.otf');
+    font-family: 'monorama-medium';
+    src: url('../fonts/Monora/Monorama\ Medium.otf');
 }
 @font-face {
-    font-family: Sequel Sans;
-    src: url('../fonts/sequel_sans_light_head.ttf'),    
+    font-family: 'sequel-sans';
+    src: url('../fonts/Sequel_Sans/Sequel\ Sans\ Light\ Head.ttf');
 }
 @font-face {
-    font-family: sequel-book;
-    src: url('../fonts/sequel_sans_book_head.otf');
+    font-family: 'sequel-book';
+    src: url('../fonts/Sequel_Sans/Sequel\ Sans\ Book\ Head.ttf');
+}
+@font-face {
+    font-family: 'sequel-bold';
+    src: url('../fonts/Sequel_Sans/Sequel\ Sans\ Bold\ Head.ttf');
 }

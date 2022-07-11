@@ -11,22 +11,26 @@
     width: 82%;
     margin-left: auto;
     margin-right: auto;
+    font-family: sequel-sans;
 }
 .nav-link {
     /* font: normal normal 300 25px/29px Sequel Sans; */
-    color: #0F1011
+    color: #0F1011;
+    padding-left: 1rem;
 }
 .nav-logo {
     width: 40px;
+    margin-right: 10%;
+    margin-left: 10%; 
 }
 .nav-logo-text {
     width: 120px;    
 }
+.navbar-nav{
+    margin-left: auto;
+}
 .footer{
     background-color: #0F1011;
-}
-.footer .container-fluid{
-    /* justify-content: flex-start; */
 }
 .footer-logo{
     width: 30px;
@@ -81,7 +85,7 @@
     height: 84px;
     margin:auto;
     text-align: center;
-    font: normal normal normal 35px/42px Monorama;
+    font: normal normal normal 35px/42px monorama-medium;
     letter-spacing: 0px;
     color: #DBDDDD;
     opacity: 1;
@@ -90,10 +94,8 @@
     background-color: transparent;
 }
 .card-body{
-    color: #fff;    
-    /* background: linear-gradient(152grad, #a0a0a0, #30384b, #2b3a5708, #3B517D); */
-    background: transparent url('../img/gradiente.svg') 0% 0% no-repeat padding-box;    
-    height: 500px;
+    color: #fff;        
+    background:  transparent url('../img/gradiente.svg') 52% 0% no-repeat padding-box;
     border-radius: 30px;
     height: 500px;    
 }
@@ -145,7 +147,7 @@
     border-radius: 30px;
 }
 .mapa {
-    background: url('../img/mundo.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../img/mundo.png') 0% 0% no-repeat padding-box;    
     background-size: 100% 725px;
     opacity: 1;
     width: 100%;
@@ -153,14 +155,17 @@
     margin-top: 15%;
     color: #fff; 
 }
+.mapa2{
+    display: none;
+}
 .mapa-mexico{
-    background: linear-gradient(41grad, #A2B0C3 1% 10%, #0F1011 31% 64%, #3B517D 99%); 
+    background: linear-gradient(41grad, #A2B0C3 0% 0%, #0F1011 31% 64%, #3B517D 120%);
     margin-top: 70px;
     border-radius: 50px;
 }
 .direcciones-title{
     text-align: center;
-    font: normal normal 300 40px/47px Sequel Sans;
+    font: normal normal 300 40px/47px sequel-sans;
     letter-spacing: 0px;
     color: #DBDDDD;
     opacity: 1;
@@ -170,7 +175,7 @@
 .direcciones {
     width: 301px;
     height: 130px;    
-    font: normal normal normal 22px/26px Sequel Sans;
+    font: normal normal normal 22px/26px sequel-book;
     letter-spacing: 0px;
     color: #DBDDDD;
     opacity: 1;
@@ -205,4 +210,74 @@
 }
 .captcha{
     margin-left: 27%;    
+}
+
+@media (min-width: 200px) and (max-width:1000px){
+    .nav{
+        border-radius: 30px;
+        --bs-nav-link-hover-color: rgb(19 19 19);
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0%;
+    }
+    .nav-logo-text {
+        display: none;
+    }
+    .fixed-top {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 0;
+    }
+    .type3 {
+        width: 450px;
+        height: 450px;       
+        margin-top: 15%;
+        background: transparent url('../img/contacto.png') linear-gradient(49deg, #3B517D 0%, #0F1011 100%) 0% 0% no-repeat padding-box;
+        box-shadow: 5px 6px 15px #00000036;
+        opacity: 1;
+        margin: auto;
+    }
+    .type3 img{
+        width: 425px;
+        height: 425px;
+    }
+    .footer-link {
+        width: 75px;
+    }
+    .footer-link-icons {        
+        font-size: 17px;
+    }
+    .card-body{
+        height:  100%;
+    }
+    .captcha {
+        margin-left: 15%;
+    }
+    .mapa {
+        background: transparent url(../img/mundo.png) 0% 0% no-repeat padding-box;
+        background-size: 250% 500px;
+        width: 100%;
+        height: 500px;
+    }
+    .mapa2{
+        display: inline-block;
+        background: transparent url(../img/mundo.png) 77% 0% no-repeat padding-box;
+        background-size: 250% 500px;
+        opacity: 1;
+        width: 100%;
+        height: 500px;        
+    }
+    .mapa-mexico{
+        background: linear-gradient(41grad, #A2B0C3 0% 0%, #0F1011 31% 64%, #3B517D 120%);
+        margin-top: 70px;
+        border-radius: 50px;
+    }
+    .mapa-mexico img{
+        height: 400px;
+        width: 100%;
+        margin-top: 20px !important;    
+    }
 }

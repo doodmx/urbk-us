@@ -15,30 +15,43 @@
 <body style="background-color: #DBDDDD;">    
     <div class="container">
         <section>
-            <nav class="navbar nav fixed-top">
+            <nav class="navbar navbar-expand-lg nav fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-brand">
-                        <img src="./img/u_transparente.svg" alt="" class="nav-logo">
+                        <a href="index.html"><img src="./img/u_transparente.svg" alt="" class="nav-logo"></a>
                         <img src="./img/group.svg" alt="" class="nav-logo-text">
                     </div>
-                    <div class="d-flex">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                        <a class="nav-link active" aria-current="page" href="#">Simulador</a>
-                        <a class="nav-link" href="blog.html">Blog</a>
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Simulador</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                          </li>                                                   
+                          <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                          </li> 
+                        </ul>
+                      </div>                    
                 </div>                       
             </nav>
         </section>
         <section style="margin-top: 5%;">
             <div class="row">
-                <div class="col-md-6">                    
+                <div class="col-lg-6">                    
                     <div class="circleBase type3 d-flex justify-content-center">
                             <img src="./img/simulador_circle.png" alt="" width="480" height="480" style="margin: auto;">
                             <h2 style="z-index: 99; position: absolute;">SIMULADOR DE INVERSIÓN</h2>
                     </div>
                 </div>
-                <div class="col-md-6" style="margin-top: 5%;">
+                <div class="col-lg-6 col-12 col-sm-12" style="margin-top: 5%;">
                     <div class="row">
                         <div class="t-header">
                             Plazos
@@ -51,7 +64,7 @@
                                 <li class="t-tr-li" style="border-bottom-right-radius: 30px; margin-right: -11px;">36 meses</li>
                             </ul>                        
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-5 col-sm-5">
                             <div class="list-cantidad">
                                 <ul class="list-group">
                                     <li class="list-group-item">$300,000-$599,999</li>
@@ -62,7 +75,7 @@
                                 </ul>
                             </div>                     
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-7 col-sm-7">
                             <div class="list-porcentaje">
                                 <ul class="list-group list-group-horizontal">
                                     <li class="list-group-item" id="1">7.5%</li>
@@ -91,17 +104,17 @@
                                 </ul>                
                             </div>
                         </div>
-                        <div class="col-md-5">                            
+                        <div class="col-md-5 col-5 col-sm-5">                            
                             <input type="text" name="currency-field" id="monto" pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$" data-type="currency" placeholder="Ingresa un monto $" class="form-control" style="margin-top: 15px; width: 80%; margin-right: auto; border-radius: 30px; text-align: center; padding: 1rem 0.75rem;">
                         </div>
-                        <div class="col-md-2">                            
+                        <div class="col-md-2 col-2 col-sm-2">                            
                             <select name="plazo" id="plazo" class="form-control" style="margin-top: 15px; margin-right: auto; border-radius: 30px; text-align: center; padding: 1rem 0.75rem;" placeholder="Plazo">
                                 <option value="12">12</option>
                                 <option value="24">24</option>
                                 <option value="36">36</option>
                             </select>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-5 col-sm-5">
                             <input type="text" name="total" id="total" class="form-control" style="margin-top: 15px; margin-right: auto; border-radius: 30px; color: #fff; background-color: #0F1011; text-align: center; padding: 1rem 0.75rem;" placeholder="Rendimiento" disabled>
                         </div>
                     </div>
