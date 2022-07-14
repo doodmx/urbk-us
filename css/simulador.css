@@ -320,6 +320,12 @@
     .footer-link-icons {        
         font-size: 17px;
     }
+    #monto{
+        width: 100% !important;
+    }
+    #plazo{
+        width: 100% !important;
+    }
 }
 /* @media (min-width: 200px) and (max-width:1000px){
     .nav{
