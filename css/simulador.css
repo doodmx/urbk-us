@@ -295,7 +295,7 @@
         
     }
     .float{
-        right: 0px;
+        display: none;
     }
     .list-porcentaje {
         width: 100%;
