@@ -2,11 +2,18 @@
     border-radius: 30px;
     backdrop-filter: blur(30px);
     background-color: rgba(255, 254, 254, 0.562);
-    margin-top: 4%;
     --bs-nav-link-hover-color: rgb(19 19 19);
-    width: 82%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
+}
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 .nav-link {
     /* font: normal normal 300 25px/29px sequel-sans; */
@@ -61,14 +68,9 @@
     background-color:#DBDDDD;
     color: #0F1011
 }
-.active, a:hover{
+.nav-item :hover{
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-}
-.container {
-    padding-bottom: 10%;
-    margin-top: 12%;
-    z-index: -20;
 }
 .float{
 	position:fixed;

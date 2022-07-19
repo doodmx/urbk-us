@@ -23,13 +23,20 @@ body{
 .nav{
     border-radius: 30px;
     backdrop-filter: blur(30px);
-    background-color: rgba(255, 254, 254, 0.562);
-    margin-top: 4%;
+    background-color: rgba(255, 254, 254, 0.562);    
     --bs-nav-link-hover-color: rgb(19 19 19);
-    width: 82%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: sequel-sans;
+}
+.nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.active {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 }
 .nav-link {
     /* font: normal normal 300 25px/29px Sequel Sans; */
@@ -47,8 +54,12 @@ body{
 .navbar-nav{
     margin-left: auto;
 }
+.nav-item :hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
 .content-title {
-   padding-top: 10rem;
+   padding-top: 5rem;
 }
 .content-title .img{    
     width: 480px;
@@ -120,7 +131,18 @@ body{
     text-align: center;
     font: normal normal 300 25px/29px 'sequel-sans';
     letter-spacing: 0px;
-    opacity: 1;    
+    opacity: 1;
+    border-radius: 0.375rem;
+}
+.content-title .content-buttons .bg-black:hover{
+    background-color: #050505 !important;
+    color: #FFF;
+    border-color: #050505;
+}
+.content-title .content-buttons .bg-azul:hover{
+    background-color: #3B517D !important;
+    color: #FFF;
+    border-color: #3B517D;
 }
 .content-cards{
     padding-top: 5rem;
