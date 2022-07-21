@@ -50,16 +50,14 @@ $(document).ready(function() {
  getImages();
  async function getImages() {
      const res = await fetch('https://dood-azell-giveaway-api.herokuapp.com/urbk-us-blog');        
-     data = await res.json();        
- 
-     for (let i = 0; i < data.length; i++) {
-         console.log(data[0]);
+     data = await res.json();
+     for (let i = 0; i < data.length; i++) {         
          document.querySelector('.carrusel').insertAdjacentHTML(
              'afterbegin',
              `<div class="product" id="product_${i}">
              <img src="${data[i].url}"  class="noticia" onclick="noticia(${i})" />
                 <div class="fecha">
-                    ${data[0].showDate}
+                    ${data[i].showDate}
                 </div>
              </div>`
            )
