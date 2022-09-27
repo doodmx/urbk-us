@@ -1,8 +1,20 @@
 let monto = 0, plazo = 0;
 let element = null;
 montoElemnet = document.getElementById("monto");
-document.getElementById("monto").addEventListener("change", getporsentaje);
+// document.getElementById("monto").addEventListener("change", getporsentaje);
 document.getElementById("plazo").addEventListener("change", getporsentaje);
+let $comment = document.getElementById("monto")
+let timeout
+
+//El evento lo puedes reemplazar con keyup, keypress y el tiempo a tu necesidad
+$comment.addEventListener('keydown', () => {
+  clearTimeout(timeout)
+  timeout = setTimeout(() => {
+    getporsentaje()
+    console.log('Has dejado de escribir en el input')
+    clearTimeout(timeout)
+  },1000)
+})
 function getporsentaje(){
     let t = 0;
     if(document.getElementById("monto").value != ""){        
