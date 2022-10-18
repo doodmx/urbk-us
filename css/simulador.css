@@ -1,6 +1,11 @@
 html, body{
     height: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .container {
     padding-bottom: 10%;    
 }
@@ -415,11 +420,12 @@ html, body{
 } */
 
 @media (min-width: 2000px){
-    #footer {
+    /* #footer {
         width: 100%;
         height: auto;
         position: absolute;
         bottom: 0;
         left: 0;
-    }
+    } */
+    
 }
